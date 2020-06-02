@@ -10,7 +10,7 @@ This Ui focuss on:
 
 **Note 2:** There is a buch of TODO ( 7 in total  ): these are just the small things i did not want to do. eg: getting the battery level or the current time etc.. You can easily add them if you like
 
-**Note 3: ** If you like my work and want to see more, you can follow me on [my Instagram](https://www.instagram.com/emilecode/ "my Instagram")
+**Note 3:** If you like my work and want to see more, you can follow me on [my Instagram](https://www.instagram.com/emilecode/ "my Instagram")
 
 **Note 4:**  There are two classes named SlidingText and Widget animator; These are UNSTABLE AND NOT YET RELEASE PACKAGE that I am working on, please do not copy these files until they're released
 
