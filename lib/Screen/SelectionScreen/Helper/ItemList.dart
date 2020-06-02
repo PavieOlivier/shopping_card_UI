@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
-import 'package:page_transition/page_transition.dart';
 import 'package:shoppingcard/Model/LocalStoreManager.dart';
 import 'package:shoppingcard/Model/Objects.dart';
-import 'package:shoppingcard/Screen/ProductDetailScreen/ProductDetailScreen.dart';
 import 'package:shoppingcard/Screen/SelectionScreen/Helper/CategoryDescription.dart';
 import 'package:shoppingcard/Screen/SelectionScreen/Helper/ItemCard.dart';
 import 'package:shoppingcard/Screen/SelectionScreen/Helper/ItemTypeList.dart';
@@ -153,9 +151,6 @@ class _ItemListState extends State<ItemList> {
                       itemCount: itemsToDisplay.length,
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (BuildContext context, int index) {
-                        ///TODO: This is a breaking change the app will not run as long as
-                        ///the variable of the controller is not given
-
                         return Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: ItemCard(
@@ -165,9 +160,7 @@ class _ItemListState extends State<ItemList> {
                               //TODO: use this for the page transition , the method shall be asyc
                               print('The plus item is tapped');
                             },
-                            onTap: () async {
-
-                            },
+                            onTap: () async {},
                           ),
                         );
                       },

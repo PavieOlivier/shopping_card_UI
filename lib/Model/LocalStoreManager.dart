@@ -317,5 +317,5 @@ class _InteriorCategory {
 class ShoppingCard {
   int numberOfItems;
   int totalPrice;
-  //TODO: add a list of widget here for displaying the items needed
+  //TODO: add a list of widget here for displaying the items needed (You will have to do it)
 }

@@ -103,7 +103,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                   ),
                 )),
             AnimatedPositioned(
-                //TODO: add the same curve as the Interor curve
+                //TODO: add the same curve as the Interor curve( might not be needed )
                 duration:isFromCard?  Duration(milliseconds: 300) : Duration(milliseconds: 900),
                 top: SizeConfig.safeBlockVertical * 16,
                 left: bigImageLeftOffset,
@@ -142,7 +142,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                                         itemImageLink: widget
                                             .itemToDisplay.imageLinkList[index],
                                         onTap: () {
-                                          //TODO: do something here about set state or maybe change the image
+                    
                                           bigImagePageController.animateToPage(
                                               index,
                                               duration:
@@ -297,10 +297,11 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
     });
     return true;
   }
-
-  Future<bool> revealGalleryList() {}
-  Future<bool> revealFocussedGalery() {}
-  Future<bool> hideAll() {}
+  //TOUncomment and complete these functions
+  // Future<bool> revealGalleryList() {}
+  // Future<bool> revealFocussedGalery() {}
+  // Future<bool> hideAll() {}
+  // Future<bool> hideFocussedGalery() {}
 
   Future<bool> hideBottomCard() async {
     setState(() {
@@ -327,5 +328,5 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
     return true;
   }
 
-  Future<bool> hideFocussedGalery() {}
+ 
 }

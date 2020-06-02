@@ -1,11 +1,6 @@
-
-
-
 import 'package:flutter/material.dart';
-
 import 'package:shoppingcard/Helpers/Strings.dart';
 import 'package:shoppingcard/Helpers/Styles.dart';
-
 import 'package:shoppingcard/Screen/SelectionScreen/Helper/PriceCard.dart';
 import 'package:shoppingcard/SizeConfig/sizeConfig.dart';
 
@@ -32,8 +27,8 @@ class BottomOptionCard extends StatelessWidget {
             child: GestureDetector(
               onTap: onTap,
               child: Hero(
-                tag:animatedBackground2 ,
-                              child: Container(
+                tag: animatedBackground2,
+                child: Container(
                   width: SizeConfig.safeBlockHorizontal * 75,
                   height: SizeConfig.safeBlockVertical * 9.8,
                   decoration: BoxDecoration(
@@ -67,7 +62,11 @@ class BottomOptionCard extends StatelessWidget {
             child: Padding(
               padding:
                   EdgeInsets.only(bottom: SizeConfig.safeBlockVertical * 0.5),
-              child: ArrowButton(),
+              child: ArrowButton(
+                onPressed: () {
+                  print('Arrow pressed');
+                },
+              ),
             ),
           )
         ],

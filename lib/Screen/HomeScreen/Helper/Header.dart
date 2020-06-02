@@ -85,7 +85,7 @@ class _HeaderState extends State<Header> with SingleTickerProviderStateMixin {
          // color: Colors.yellow,
           child: Transform.rotate(
               angle: 5.95,
-              //TODO: animate offset from 400 to 10
+              //TODO: animate offset from 400 to 10 (if necessary, you have to see for yourself)
               child: Transform.translate(
                 offset: Offset(translatiionAnimation.value, 0),
                 child: Center(

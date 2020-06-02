@@ -22,7 +22,7 @@ class ItemTypeListController {
   Function _revealList;
 }
 
-//TODO: Come and complete the logic here
+
 class ItemTypeList extends StatefulWidget {
   ///The instance of the curently active local store manager
   final LocalStoreManager localStoreManager;
@@ -144,7 +144,7 @@ class TypeCard extends StatelessWidget {
                                   child: Padding(
         padding: const EdgeInsets.only(
             right: 9, top: 9, bottom: 9),
-        //TODO: you have to configure this card properly
+        
         child: Container(
           width: SizeConfig.safeBlockHorizontal * 15,
           decoration: BoxDecoration(

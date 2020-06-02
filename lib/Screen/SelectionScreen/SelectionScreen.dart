@@ -151,7 +151,6 @@ class _SelectionScreenState extends State<SelectionScreen>
                     ),
                   ),
                   AnimatedPositioned(
-                    //TODO: maybe animate this position we will see if not just remove the animation
                     duration: Duration(milliseconds: 100),
                     left: 0,
                     right: 0,
@@ -204,7 +203,7 @@ class _SelectionScreenState extends State<SelectionScreen>
                                 ),
                               ),
 
-                              //TODO: use the list of lamp or whatever is generated gere AND
+                              // Use the list of lamp or whatever is generated gere AND
                               //GIVE ALLL CONTROLERS HERE FOR ANIMATION
                               Container(
                                 //color: Colors.red,

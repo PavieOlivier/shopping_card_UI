@@ -142,7 +142,7 @@ void hideIcons()
                             decoration: BoxDecoration(
                                 color: Colors.red,
                                 borderRadius: BorderRadius.circular(10)),
-                            //TODO: Get platform channel code here to display battery 
+                            //TODO: Get platform channel code here to display battery (use the battery plugin)
                             child: Center(child: Text('60%', style: batteryTextStyle ,)),
                           ),
                         )

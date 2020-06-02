@@ -20,7 +20,7 @@ class PriceCardController {
   Function({@required String price}) changeItemPrice;
 }
 
-//TODO: you need to manage the local store market here like the list of things...
+
 class PriceCard extends StatefulWidget {
   ///An instance of the curently active Local store manager (or API)
   final LocalStoreManager localStoreManager;
