@@ -12,7 +12,7 @@ This Ui focuss on:
 
 **Note 3:** If you like my work and want to see more, you can follow me on [my Instagram](https://www.instagram.com/emilecode/ "my Instagram")
 
-**Note 4:**  There are two classes named SlidingText and Widget animator; These are UNSTABLE AND NOT YET RELEASE PACKAGE that I am working on, please do not copy these files until they're released
+**Note 4:**  There are two classes named SlidingText and Widget animator; These are **UNSTABLE AND NOT YET RELEASE PACKAGE** that I am working on, please do not copy these files until they're released
 
 Here is a Gif showing some animations in action 
 
