@@ -90,7 +90,7 @@ class LocalStoreManager {
 
   ///Use this to add Items to the shopping card
   void addItemToShoppingCard() {
-    //TODO: Make this one later(You will have to do it) :)
+    //TODO: Make this one later(You will have to do it)
 
   }
 
